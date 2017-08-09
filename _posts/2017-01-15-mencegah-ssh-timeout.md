@@ -4,7 +4,7 @@ title: "Mencegah SSH Timeout"
 description: "Cara mencegah ssh timeout"
 keywords: "ssh timeout"
 date: 2017-01-15
-categories: server administration
+categories: ops
 author:     "dehamzah"
 header-img: ""
 tags:

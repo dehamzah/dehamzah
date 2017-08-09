@@ -4,11 +4,12 @@ title: "Konsisten Indentasi dengan Editorconfig"
 description: "Konsisten Indentasi dengan Editorconfig"
 keywords: "editorconfig, konsisten indentasi"
 date: 2017-02-26
-categories: text editor
+categories: texteditor
 author:     "dehamzah"
 header-img: ""
 tags:
     - Notes
+    - Text Editor
 ---
 
 Katanya menulis software itu harus rapih dan konsisten. Mengerjakan satu proyek dengan kolaborasi banyak orang, hasilnya harus tetap seperti satu orang yang menulis. Hal sederhana yang sering kali diperhatikan adalah indentasi, tentukan untuk menggunakan indentasi dengan tab atau spasi, panjang tab 2 atau 4.
