@@ -4,7 +4,6 @@ title: "Show Homepage after user logged in in OpenEdx  "
 date: 2017-10-01
 categories: "openedx"
 author:     "dehamzah"
-header-img: "public/openedx.png"
 tags:
     - Open edX
     - Notes
