@@ -112,7 +112,9 @@ To use our new theme, we must configure some value and update the assets. Here i
 		$ sudo /edx/bin/supervisorctl restart edxapp:lms
 
 
-Thats it. Sorry for my bad english, i hope you understand. If you just want to test out this comprehensive theming, i had create a github repo for you to clone here:
+Thats it. 
+
+If you just want to test out this comprehensive theming, i had create a github repo for you to clone here:
 
 [https://github.com/dehamzah/starter-theme-openedx](https://github.com/dehamzah/starter-theme-openedx)
 
@@ -122,6 +124,13 @@ I also create a simple bash script to update the assets on my gist [here](https:
 
 If you have some issues just comments below, maybe i can help or maybe other readers can help too.
 
+
+p.s. What if i already follow all these steps above but my Open edX theme still not changed?
+
+Try to login to django admin on `/admin` with superuser account.
+Then go to Theming > Site Themes : `/admin/theming/sitetheme/`.
+In there add site theme, and put your theme name there.
+If you already compile your assets, you can try refreshing your Open edX homepage, it should be changed now.
 
 
 
