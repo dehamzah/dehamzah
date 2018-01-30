@@ -12,7 +12,7 @@ tags:
     - Theming
 ---
 
-How to change the look of Open edX, as far as i know, there is 3 methods possible, the microsites, stanford theming, and comprehensive theming method. The first two methods soon will be obesolate, and we should start using the comprehensive method to change how the Open edX looks. The existing documentation for this comprehensive theme is quite good enough but not yet give some clue to newcomer like me to activate the theme (per this post is written).
+How to change the look of Open edX, as far as i know, there is 2 methods possible, stanford theming, and comprehensive theming method. The first one soon will be obesolate, and we should start using the comprehensive method to change how the Open edX looks. The existing documentation for this comprehensive theme is quite good enough but not yet give some clue to newcomer like me to activate the theme (per this post is written).
 
 My post here mostly takes from Open edX documentation [here](http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/configuration/theming/index.html) and [here](https://github.com/edx/edx-platform/tree/master/themes), plus my experience when developing a theme for [IndonesiaX](https://indonesiax.co.id).
 
