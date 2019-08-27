@@ -9,7 +9,7 @@ tags:
     - Container
 ---
 
-![docker](../img/laurel-docker-containers.png)
+![docker](/img/laurel-docker-containers.png)
 
 # Docker Overview
 
@@ -27,7 +27,7 @@ Docker engine adalah client-server application yang terdiri dari 3 bagian besar 
 - Rest API, interface untuk berkomunikasi dengan daemon dan menginstrukikan apa yang mau dilakukan
 - Command Line Interface client (docker command)
 
-![docker-engine](../img/engine-components-flow.png)
+![docker-engine](/img/engine-components-flow.png)
 
 ## Docker Usage
 
@@ -44,7 +44,7 @@ Docker engine adalah client-server application yang terdiri dari 3 bagian besar 
 
 Docker menggunakan client-server architecture. Docker client memberikan perintah ke docker daemon, docker daemon lah yang bekerja keras. Dia mengatur hal-hal yang berkaitan dengan building, running dan distributing docker container. Mereka berkomunikasi via rest api melalui unix socket atau network.
 
-![docker-architecture](../img/docker-architecture.svg)
+![docker-architecture](/img/docker-architecture.svg)
 
 #### Docker Daemon
 
