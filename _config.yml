@@ -5,36 +5,29 @@ header-img: img/home-bg-3.jpg
 email: dehamzah@gmail.com
 description: "Fullstack JS Developer from Tangerang Selatan, Indonesia"
 keyword: "dehamzah, blog, fullstack developer"
-url: "https://dehamzah.com"     # your host, for absolute URL
-baseurl: ""                    # for example, '/blog' if your blog hosted on 'host/blog'
-
-
+url: "https://dehamzah.com" # your host, for absolute URL
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # SNS settings
 RSS: false
-weibo_username:     null
-zhihu_username:     null
-github_username:    dehamzah
-twitter_username:   dehamzah
-facebook_username:  dede.hamzah
-
-
+weibo_username: null
+zhihu_username: null
+github_username: dehamzah
+twitter_username: dehamzah
+facebook_username: dede.hamzah
+instagram_username: dehamzah
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: /:categories/:title/
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
+exclude: ["less", "node_modules", "Gruntfile.js", "package.json", "README.md"]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
 gems: [jekyll-paginate, jekyll-gist]
-
-
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -42,9 +35,7 @@ gems: [jekyll-paginate, jekyll-gist]
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
-
-
+  input: GFM # use Github Flavored Markdown !important
 
 # Disqus settings
 disqus_username: dehamzah
@@ -52,27 +43,20 @@ disqus_username: dehamzah
 # Duoshuo settings
 duoshuo_username: null
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
-
-
-
+duoshuo_share: false # set to false if you want to use Comment without Sharing
 
 # Analytics settings
 # Baidu Analytics
 # ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
-ga_track_id: 'UA-82373498-1'            # Format: UA-xxxxxx-xx
+ga_track_id: "UA-82373498-1" # Format: UA-xxxxxx-xx
 ga_domain: dehamzah.com
 
-
-
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "Moslem dev. Fullstack JS Developer. Facebook DevC Trainer. Learners."
-sidebar-avatar: /img/hamzah.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+sidebar-avatar: /img/hamzah.jpeg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
